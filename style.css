@@ -1,0 +1,22 @@
+body {
+  background-color: lightgreen;
+}
+header {
+  text-align: justify;
+  letter-spacing: 10px;
+  height: 7em;
+  color:black;
+}
+.title-second {
+  color: brown;
+  opacity: 0.5;
+  display: flex;
+  flex-wrap: flex-end;
+  font-weight: bold;
+  font-stretch: expanded;
+}
+.row::after {
+  content: '';
+  display: inline-block;
+  width: 100%; 
+}
