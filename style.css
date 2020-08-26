@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
+
+body {
+  font-family: 'Baloo Tamma 2', cursive;
+  background-color: lightgreen;
+}
+header {
+  font-family: 'Balsamiq Sans', cursive;
+  text-align: justify;
+  letter-spacing: 10px;
+  height: 7em;
+  color:black;
+}
+.title-second {
+  color: brown;
+  opacity: 0.5;
+  display: flex;
+  flex-wrap: flex-end;
+  font-weight: bold;
+  font-stretch: expanded;
+}
+.row::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
